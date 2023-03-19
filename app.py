@@ -12,3 +12,5 @@ def get_dialogflow_response():
     response_text = "Welcome to the car rental bot! How can I assist you today?"
     return {"fulfillmentText": response_text}
     
+if __name__ == "__main__":
+    app.run()
