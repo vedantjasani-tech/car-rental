@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def get_student_number():
-    student_number = "123456789"  # replace with your student number
+    student_number = "200506382"  # replace with your student number
     return {"student_number": student_number}
 
 @app.route("/webhook")
